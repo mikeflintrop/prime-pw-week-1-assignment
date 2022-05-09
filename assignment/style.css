@@ -9,3 +9,35 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+body {
+    background-color: lightgray;
+  }
+  h1 {
+    color: gold;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial;
+  }
+  img{
+    border: 2px solid black;
+  }
+  ul {
+    font-family: Verdana;
+  }
+  p {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  header {
+    background-color: blue;
+    padding-left: 10px;
+    border: 1px solid blue;
+  }
+  footer {
+    border: 1px solid blue;
+    background-color: blue;
+    padding-left: 10px;
+  }
