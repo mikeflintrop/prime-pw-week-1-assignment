@@ -12,6 +12,7 @@
 
 body {
     background-color: lightgray;
+    margin: 0;
   }
   h1 {
     color: gold;
@@ -21,6 +22,15 @@ body {
   }
   img{
     border: 2px solid black;
+  }
+  div.content {
+     display: flex;
+     flex-direction: column;
+     width: 50%;  
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+     margin-left: 25%;
   }
   ul {
     font-family: Verdana;
@@ -33,11 +43,11 @@ body {
   }
   header {
     background-color: blue;
-    padding-left: 10px;
     border: 1px solid blue;
   }
   footer {
+    position: absolute;
+    bottom: 0;
     border: 1px solid blue;
     background-color: blue;
-    padding-left: 10px;
   }
